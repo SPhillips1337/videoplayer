@@ -1,0 +1,125 @@
+div#fullScreenVideoButtonContainer {
+	position:fixed;top:3px;right:3px;z-index:999;text-align:right;
+}
+
+div#videoContainer {
+	width: 100%;position:absolute;top:0px;left:0px;
+}
+
+div#cancelFullScreenVideoContainer {
+	position:fixed;top:0px;right:0px;z-index:999;text-align:right;display:none;
+}
+
+div#navigation {
+	position:fixed;top:0px;left:0px;z-index:999;
+}
+
+div#hideNavContainer {
+	position:fixed;top:192px;left:0px;z-index:999;
+}
+
+div#playlistContainer {
+	position:fixed;top:138px;left:74px;z-index:999;text-align:left;display:none;background:#000000;color:#ffffff;padding:10px;
+}
+
+#video {
+	width: 100%;
+}
+
+/* buttons */
+
+div#fullScreenVideo {
+	background:url('/Video/images/fullscreenButton.png') no-repeat top left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#fullScreenVideo:hover {
+	background:url('/Video/images/fullscreenButton.png') no-repeat bottom left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#cancelFullScreenVideo {
+	background:url('/Video/images/normalscreenButton.png') no-repeat top left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#cancelFullScreenVideo:hover {
+	background:url('/Video/images/normalscreenButton.png') no-repeat bottom left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#previousVideo {
+	background:url('/Video/images/previousArrow.png') no-repeat top left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#previousVideo:hover {
+	background:url('/Video/images/previousArrow.png') no-repeat bottom left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#nextVideo {
+	background:url('/Video/images/nextArrow.png') no-repeat top left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#nextVideo:hover {
+	background:url('/Video/images/nextArrow.png') no-repeat bottom left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#viewPlaylist {
+	background:url('/Video/images/playlistButton.png') no-repeat top left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#viewPlaylist:hover {
+	background:url('/Video/images/playlistButton.png') no-repeat bottom left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#hideNav {
+	background:url('/Video/images/hideNav.png') no-repeat top left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
+
+div#hideNav:hover {
+	background:url('/Video/images/hideNav.png') no-repeat bottom left;
+	height:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+}
